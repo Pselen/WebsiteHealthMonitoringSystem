@@ -1,0 +1,39 @@
+﻿body {
+    height:auto;
+    text-align:center;
+    margin:0 auto;
+    position:center;
+}
+#header{
+    margin:auto;
+    float:inherit;
+    text-align:center;
+    background-color:antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;     
+}
+p{
+    text-align:center;
+}
+#Button1{
+    background-color:antiquewhite;
+    text-align:center;
+    margin:0 auto;
+    position:center;
+    float:inherit;
+    font-family:'Times New Roman', Times, serif;
+    display:table;
+    border: 1px solid black;
+    border-radius:5px;
+}
+#Button2{
+    background-color:antiquewhite;
+    text-align:center;
+    margin:0 auto;
+    position:center;
+    float:inherit;
+    font-family:'Times New Roman', Times, serif;
+    display:table;
+    border-radius:5px;
+    border: 1px solid black;
+}

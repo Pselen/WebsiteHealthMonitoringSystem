@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", "..\..\WebSites\WebSite2\", "{BB4ACC77-97C5-4904-873F-5E472F7B8C40}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{95add3de-e3d0-4ccb-8b60-601ceb31e3cc}|ClassLibrary1.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50591"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50591\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50591"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50591\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50591"
+		SlnRelativePath = "..\..\WebSites\WebSite2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{C03B917A-F376-4F26-B175-C61E89017033} = {C03B917A-F376-4F26-B175-C61E89017033}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WehemoCalculator", "WehemoCalculator\WehemoCalculator.csproj", "{C03B917A-F376-4F26-B175-C61E89017033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wehemo.Business", "ClassLibrary1\Wehemo.Business.csproj", "{95ADD3DE-E3D0-4CCB-8B60-601CEB31E3CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4ACC77-97C5-4904-873F-5E472F7B8C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4ACC77-97C5-4904-873F-5E472F7B8C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4ACC77-97C5-4904-873F-5E472F7B8C40}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4ACC77-97C5-4904-873F-5E472F7B8C40}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C03B917A-F376-4F26-B175-C61E89017033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03B917A-F376-4F26-B175-C61E89017033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03B917A-F376-4F26-B175-C61E89017033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03B917A-F376-4F26-B175-C61E89017033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95ADD3DE-E3D0-4CCB-8B60-601CEB31E3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ADD3DE-E3D0-4CCB-8B60-601CEB31E3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ADD3DE-E3D0-4CCB-8B60-601CEB31E3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ADD3DE-E3D0-4CCB-8B60-601CEB31E3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
